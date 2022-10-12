@@ -1,0 +1,168 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@font-face {
+    font-family: 'Hit the Road';
+    src: url('hit-the-road-webfont.eot');
+    src: local('☺'), url('hit-the-road-webfont.woff') format('woff'), url('hit-the-road-webfont.ttf') format('truetype'), url('hit-the-road-webfont.svg#webfontmDf3v98m') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intro_regular';
+    src: url('intro-webfont.eot');
+    src: url('intro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('intro-webfont.woff2') format('woff2'),
+         url('intro-webfont.woff') format('woff'),
+         url('intro-webfont.ttf') format('truetype'),
+         url('intro-webfont.svg#intro_regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('zantroke-webfont.eot');
+    src: url('zantroke-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zantroke-webfont.woff') format('woff'),
+         url('zantroke-webfont.ttf') format('truetype'),
+         url('zantroke-webfont.svg#zantrokeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background:#0d3220;
+	font-family: "Open Sans", "Arial", sans-serif;
+	color:#fff;
+	font-size: 25px;
+	padding:0;
+	font-weight: bold;
+	margin:0;
+}
+html {
+	height: 100%;
+	position: relative;
+}
+@-webkit-keyframes animatedBackground {
+    to { background-position-x:-100%; }
+}
+@keyframes animatedBackground {
+    to { background-position-x:-100%; }
+}
+
+body {
+	background:#0d3220;
+	background-size: 50%;
+	height: 100%;
+	-webkit-animation: animatedBackground 80s linear infinite;
+	animation: animatedBackground 80s linear infinite;
+	position: relative;
+}
+input {
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+table {
+	border-collapse: collapse;
+	padding:0;
+	background: url('trophy.png') center center no-repeat;
+	background-size: 105px 92px;
+	max-width: 1396px;
+	margin: 0 auto;
+}
+em, i {
+	font-style: normal;
+}
+table * {
+	margin:0;
+	padding:0;
+}
+#logo {
+	width: auto;
+	display: block;
+	margin: 20px auto 0 auto;
+}
+input.player-input, input.deckname {
+	border:none;
+	background: transparent;
+	font-family: "Open Sans", "Arial", sans-serif;
+	color:#fff;
+	font-size: 100%;
+	outline:none;
+}
+input.deckname {
+	font-size: 90%;
+	font-style: italic;
+	display: block;
+	margin-bottom: -20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.right input {
+	text-align: right;
+	float: right;
+}
+p {
+	background: darkgreen;
+	padding: 3px 5px;
+	width: 225px;
+	margin-top: -15px;
+}
+td.player.right p {
+	float: right;
+	margin-right: -2px;
+	clear: both;
+}
+td.player.semifinal p {
+	margin-top: -35px;
+}
+td.player {
+	width: 325px;
+	border-top: 2px solid darkgreen;
+	border-right: 2px solid darkgreen;
+	padding-bottom: 20px;
+}
+td.player.final {
+	border: none!important;
+}
+td.player.right.final {
+	border-right: 2px solid darkgreen!important;
+}
+td.border-right {
+	border-right: 2px solid darkgreen;
+}
+td.border-left {
+	border-left: 2px solid darkgreen;
+}
+td.player.no-right-border {
+	border-right: 0;
+}
+td.player.no-left-border {
+	border-left: 0!important;
+}
+td.player.semifinal p, td.player.final p {
+	width: 115px;
+}
+td.player.gap-below {
+	padding-bottom: 100px;
+}
+td.player.semifinal {
+	padding-top: 20px;
+}
+td.player.right {
+	border-left: 2px solid darkgreen;
+	border-right: 0;
+	text-align: right;
+}
+em {
+	clear: both;
+	font-size: 80%;
+	font-style: italic;
+	padding: 3px 5px;
+	display: block;
+	color:#69c2ff;
+}
+#bracket-wrapper {
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+

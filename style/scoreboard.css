@@ -1,0 +1,278 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@font-face {
+    font-family: 'Hit the Road';
+    src: url('hit-the-road-webfont.eot');
+    src: local('☺'), url('hit-the-road-webfont.woff') format('woff'), url('hit-the-road-webfont.ttf') format('truetype'), url('hit-the-road-webfont.svg#webfontmDf3v98m') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intro_regular';
+    src: url('intro-webfont.eot');
+    src: url('intro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('intro-webfont.woff2') format('woff2'),
+         url('intro-webfont.woff') format('woff'),
+         url('intro-webfont.ttf') format('truetype'),
+         url('intro-webfont.svg#intro_regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('zantroke-webfont.eot');
+    src: url('zantroke-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zantroke-webfont.woff') format('woff'),
+         url('zantroke-webfont.ttf') format('truetype'),
+         url('zantroke-webfont.svg#zantrokeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background:#0d3220;
+	font-family: "Open Sans", "Arial", sans-serif;
+	color:#fff;
+	font-size: 25px;
+	padding:0;
+	font-weight: bold;
+	margin:0;
+}
+html {
+	height: 100%;
+	position: relative;
+}
+body {
+	background:#0d3220 url('match-top.png?v=23') no-repeat;
+	background-size: 100%;
+	height: 100%;
+	position: relative;
+}
+input {
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin:0;
+	padding:0;
+	background: transparent url('match-bottom.png?v=23') no-repeat;
+	background-position: bottom;
+}
+em, i {
+	font-style: normal;
+}
+table * {
+	margin:0;
+	padding:0;
+}
+#admin form tr {
+	vertical-align: top;
+}
+tfoot td {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+#admin tfoot td {
+	padding-top: 0px;
+}
+table th, table td {
+
+}
+table th {
+	padding: 1% 0;
+}
+th.life, th.score {
+	font-size: 300%;
+	font-family: "zantrokeregular";
+	line-height: 80%;
+	width: 7.0%;
+	text-align: center;
+	text-shadow: 0px 0px 5px #162733;
+}
+th.life span.poison {
+	font-family: "Open Sans";
+	font-size: 30%;
+	display: none;
+	background: url('poison.png') no-repeat top center;
+	padding: 0 0 0 25px;
+	margin-top:5px;
+	background-size: 12px 22px;
+	line-height: normal;
+	height: 22px;
+	margin-bottom: -3px;
+	color: #79ff5a;
+}
+#admin th.life span.poison {
+	display: block;	
+	margin-bottom: 5px;
+}
+.quickbutton {
+	padding: 7px 10px;
+	float: left;
+	background: red;
+	color:#fff;
+	font-family: "Open Sans";
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.quickbutton.plus1, .quickbutton.plus5 {
+	background: green;
+	color:#fff;
+} 
+.quickbutton.player2 {
+	float: right;
+}
+.quickbutton.plus5,.quickbutton.plus1 {
+	clear: left;
+	margin-left: 5px;
+}
+.player2.quickbutton.plus5, .player2.quickbutton.plus1 {
+	margin-left: 0px;
+}
+.player2.quickbutton.minus5, .player2.quickbutton.minus1 {
+	margin-right: 5px;
+}
+#admin form span.poison {
+	background: none;
+	font-size: 20%;
+	color: #fff;
+}
+th.score {
+	font-size: 220%;
+	width: 5%;
+	text-align: left;
+}
+th.score.player1-score {
+	text-align: center;
+	padding-left: 1%;
+}
+th.score input {
+	text-align: center;
+}
+th.logo {
+	padding-top: 50px;
+}
+th.logo div {
+	margin-top: 20px;
+}
+th.logo i {
+	font-style: italic;
+	font-size: 40%;
+	font-weight: normal;
+	display: block;
+	color:#fff228;
+}
+th.logo input {
+	margin-bottom: 4%;
+	text-align: center;
+}
+th.logo input[type="submit"] {
+	background: green;
+	border:1px solid #000;
+	color: #fff;
+	padding:5px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px #000;
+}
+th.logo input[type="submit"]:active {
+	background: blue;
+}
+th.name {
+	font-size:200%;
+	width: 33.1%;
+	text-align: right;
+	text-transform: uppercase;
+	line-height: 90%;
+	padding-right: 1%;
+}
+th.name span {
+	font-size: 50%;
+	color:#fff228;
+	margin-right: 2%;
+}
+th.name.player2-name {
+	text-align: left;
+}
+th.name.player2-name span {
+	margin-left: 2%;
+	margin-right: 0;
+}
+th.name strong {
+	font-family: "Hit the Road";
+	font-size: 75%;
+	display: block;
+	color:#b9f2cc;
+	text-transform: none;
+	margin-top: 5px;
+}
+td.inthebooth {
+	padding-left: 1%;
+	text-align: left;
+}
+td.inthebooth strong {
+	color: #b9f2cc;
+	text-transform: uppercase;
+}
+td.scvopen-info {
+	text-align: right;
+	padding-right: 1%;
+	color:#b9f2cc;
+}
+td.scvopen-info span {
+	color: #fff;
+}
+td.scvopen-info strong {
+	color: #fff;
+	text-transform: uppercase;
+}
+.time {
+	text-align: left;
+	padding-left: 3%;
+}
+input[type='text'] {
+	font-size: 80%;
+}
+input[type='text'].roundstats, input[name='player1name'], input[name='player2name'] {
+	text-transform: uppercase;
+}
+input[type="text"].season-standings {
+	font-size: 10px;
+}
+span.season-standings {
+	background: #fff228;
+	border-radius: 20px;
+	padding:3px 7px;
+	line-height: normal;
+	margin-top: 5px;
+	text-align: center;
+	color: #142531!important;
+	font-size: 30%!important;
+	display: inline-block;
+	vertical-align: top;
+}
+th.name.player2-name span.season-standings {
+	margin-left: 0;
+	margin-right: 1%;
+}
+th.name.player1-name span.season-standings {
+	margin-left: 1%;
+	margin-right: 0;
+}
+#booth, #booth * {
+	display: inline;
+}
+#booth {
+	margin-left: 0.5%;
+}
+#booth div:first-child:after {
+	content: " ";
+}
+#booth.both-here div:first-child:after {
+	content: " & ";
+}
+#booth div {
+	text-transform: capitalize;	
+}
